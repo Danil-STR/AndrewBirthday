@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HAPPY BIRTHDAY!!!</title>
+
+    <style>
+        * {
+            font-family: Comic Sans MS;
+        }
+
+        body {
+            background:
+                repeating-linear-gradient(
+                    45deg,
+                    red,
+                    yellow 10px,
+                    lime 20px,
+                    cyan 30px,
+                    blue 40px,
+                    magenta 50px
+                );
+            overflow-x: scroll;
+            cursor: wait;
+        }
+
+        .container {
+            width: 37%;
+            margin-left: 43%;
+            margin-top: 173px;
+            border: 17px dotted pink;
+            background: orange;
+            transform: rotate(7deg);
+            padding: 2px;
+        }
+
+        h1 {
+            color: red;
+            font-size: 12px;
+            text-shadow:
+                5px 5px 0 blue,
+                -5px -5px 0 lime,
+                10px 10px 0 purple;
+        }
+
+        button {
+            width: 400px;
+            height: 20px;
+            border-radius: 0;
+            position: fixed;
+            top: 95%;
+            left: -200px;
+        }
+
+        marquee {
+            font-size: 40px;
+        }
+
+        img {
+            width: 100%;
+            height: 50px;
+            object-fit: fill;
+        }
+    </style>
+</head>
+
+<body>
+
+<marquee behavior="alternate" scrollamount="30">
+    🎉🎉🎉 АнДрЮхА 🎉🎉🎉
+</marquee>
+
+<div class="container">
+
+    <h1>
+        Поздравляю с днем рождения!!!!!!
+    </h1>
+
+    <img src="https://i.imgur.com/this-image-does-not-exist.jpg">
+
+    <p>
+		Счастья здоровья!
+		побольше койфавать и никаких депрессий!
+		пиво вкусное (холодное),
+		деняг денюжек (побольше)
+		и других бесконечных ништяков <3
+    </p>
+
+    <table border="7">
+        <tr>
+            <td>Багов</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>Багов после фикса</td>
+            <td>69</td>
+        </tr>
+    </table>
+
+    <br><br><br><br><br><br><br><br><br>
+
+    <button onclick="alert('404 Поздравление не найдено')">
+        Получить подарок
+    </button>
+
+</div>
+
+<script>
+    setInterval(() => {
+        document.body.style.zoom =
+            Math.random() * 2 + 0.5;
+    }, 500);
+
+    window.onload = function() {
+        alert("Ваш браузер устарел");
+        alert("Ваш браузер не поддерживается");
+        alert("Ошибка загрузки поздравления");
+        alert("Поздравление успешно загружено");
+    }
+</script>
+
+</body>
+</html>
